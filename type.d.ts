@@ -5,4 +5,4 @@ declare global{
         promise:Promise<Connection> | null
     }
 }
-export {}
+export default global ; 

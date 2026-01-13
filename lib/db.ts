@@ -4,5 +4,6 @@ if(!mongodbUrl){
 }
 const cached = global.mongoose ; 
 if(!cached){
+cached = global.mongoose={conn:null}
    cached=global.mongoose={conn:null , promise:null}
 }
